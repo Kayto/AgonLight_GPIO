@@ -1,0 +1,393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "#1 - Blinkenlight"
+Date "2023-04-10"
+Rev "Rev 01"
+Comp "AdamT117 (https://github.com/Kayto/AgonLight_GPIO)"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Agon light Expansion "
+$EndDescr
+$Comp
+L Device:LED PC_5
+U 1 1 64351520
+P 5125 5050
+F 0 "PC_5" V 5164 4932 50  0000 R CNN
+F 1 "LED" V 5073 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5125 5050 50  0001 C CNN
+F 3 "~" H 5125 5050 50  0001 C CNN
+	1    5125 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_6
+U 1 1 6435096F
+P 4750 5050
+F 0 "PC_6" V 4789 4932 50  0000 R CNN
+F 1 "LED" V 4698 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4750 5050 50  0001 C CNN
+F 3 "~" H 4750 5050 50  0001 C CNN
+	1    4750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_4
+U 1 1 64352EFC
+P 5500 5050
+F 0 "PC_4" V 5539 4932 50  0000 R CNN
+F 1 "LED" V 5448 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5500 5050 50  0001 C CNN
+F 3 "~" H 5500 5050 50  0001 C CNN
+	1    5500 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_1
+U 1 1 643544B4
+P 6625 5050
+F 0 "PC_1" V 6664 4932 50  0000 R CNN
+F 1 "LED" V 6573 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6625 5050 50  0001 C CNN
+F 3 "~" H 6625 5050 50  0001 C CNN
+	1    6625 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_2
+U 1 1 64354532
+P 6250 5050
+F 0 "PC_2" V 6289 4932 50  0000 R CNN
+F 1 "LED" V 6198 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6250 5050 50  0001 C CNN
+F 3 "~" H 6250 5050 50  0001 C CNN
+	1    6250 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_3
+U 1 1 6435453C
+P 5875 5050
+F 0 "PC_3" V 5914 4932 50  0000 R CNN
+F 1 "LED" V 5823 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5875 5050 50  0001 C CNN
+F 3 "~" H 5875 5050 50  0001 C CNN
+	1    5875 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED PC_0
+U 1 1 64354546
+P 7000 5050
+F 0 "PC_0" V 7039 4932 50  0000 R CNN
+F 1 "LED" V 6948 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 7000 5050 50  0001 C CNN
+F 3 "~" H 7000 5050 50  0001 C CNN
+	1    7000 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4375 5200 4375 5575
+Wire Wire Line
+	7000 5575 7000 5200
+Wire Wire Line
+	6625 5200 6625 5575
+Wire Wire Line
+	4375 5575 4750 5575
+Connection ~ 6625 5575
+Wire Wire Line
+	6625 5575 7000 5575
+Wire Wire Line
+	6250 5200 6250 5575
+Connection ~ 6250 5575
+Wire Wire Line
+	6250 5575 6625 5575
+Wire Wire Line
+	5875 5200 5875 5575
+Connection ~ 5875 5575
+Wire Wire Line
+	5875 5575 6250 5575
+Wire Wire Line
+	5500 5200 5500 5575
+Wire Wire Line
+	5125 5200 5125 5575
+Wire Wire Line
+	4750 5200 4750 5575
+Connection ~ 4750 5575
+Wire Wire Line
+	4750 5575 5125 5575
+Connection ~ 5125 5575
+Wire Wire Line
+	5125 5575 5500 5575
+Connection ~ 5500 5575
+Wire Wire Line
+	5500 5575 5675 5575
+Wire Wire Line
+	5675 5575 5675 6100
+Connection ~ 5675 5575
+Wire Wire Line
+	5675 5575 5875 5575
+$Comp
+L power:GND #PWR0101
+U 1 1 64356A18
+P 5675 6100
+F 0 "#PWR0101" H 5675 5850 50  0001 C CNN
+F 1 "GND" H 5680 5927 50  0000 C CNN
+F 2 "" H 5675 6100 50  0001 C CNN
+F 3 "" H 5675 6100 50  0001 C CNN
+	1    5675 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x19_Odd_Even J1
+U 1 1 64357011
+P 5775 2325
+F 0 "J1" V 5779 1338 50  0000 R CNN
+F 1 "Conn_02x19_Odd_Even" V 5870 1338 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical" H 5775 2325 50  0001 C CNN
+F 3 "~" H 5775 2325 50  0001 C CNN
+	1    5775 2325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED PC_7
+U 1 1 64350309
+P 4375 5050
+F 0 "PC_7" V 4414 4932 50  0000 R CNN
+F 1 "LED" V 4323 4932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4375 5050 50  0001 C CNN
+F 3 "~" H 4375 5050 50  0001 C CNN
+	1    4375 5050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6675 2125
+NoConn ~ 6575 2125
+Wire Wire Line
+	6475 2125 6475 1850
+Wire Wire Line
+	6375 2125 6375 1850
+Wire Wire Line
+	6375 1850 6425 1850
+Wire Wire Line
+	6425 1850 6425 1675
+Connection ~ 6425 1850
+Wire Wire Line
+	6425 1850 6475 1850
+$Comp
+L power:GND #PWR0102
+U 1 1 64367BD1
+P 6425 1675
+F 0 "#PWR0102" H 6425 1425 50  0001 C CNN
+F 1 "GND" H 6430 1502 50  0000 C CNN
+F 2 "" H 6425 1675 50  0001 C CNN
+F 3 "" H 6425 1675 50  0001 C CNN
+	1    6425 1675
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6275 2125
+NoConn ~ 6175 2125
+NoConn ~ 6075 2125
+NoConn ~ 5975 2125
+NoConn ~ 5875 2125
+NoConn ~ 6675 2625
+NoConn ~ 6575 2625
+NoConn ~ 6475 2625
+NoConn ~ 6375 2625
+NoConn ~ 6275 2625
+NoConn ~ 5975 2625
+NoConn ~ 6075 2625
+NoConn ~ 6175 2625
+Wire Wire Line
+	5775 2125 5775 1875
+Text GLabel 5775 1875 1    50   BiDi ~ 0
+GPIO_PC0
+Wire Wire Line
+	5775 2625 5775 2875
+Text GLabel 5775 2875 3    50   BiDi ~ 0
+GPIO_PC1
+Wire Wire Line
+	5675 2125 5675 1875
+Text GLabel 5675 1875 1    50   BiDi ~ 0
+GPIO_PC2
+Wire Wire Line
+	5575 2125 5575 1875
+Text GLabel 5575 1875 1    50   BiDi ~ 0
+GPIO_PC4
+Wire Wire Line
+	5475 2125 5475 1875
+Text GLabel 5475 1875 1    50   BiDi ~ 0
+GPIO_PC6
+Wire Wire Line
+	5675 2625 5675 2875
+Text GLabel 5675 2875 3    50   BiDi ~ 0
+GPIO_PC3
+Wire Wire Line
+	5575 2625 5575 2875
+Text GLabel 5575 2875 3    50   BiDi ~ 0
+GPIO_PC5
+Wire Wire Line
+	5475 2625 5475 2875
+Text GLabel 5475 2875 3    50   BiDi ~ 0
+GPIO_PC7
+NoConn ~ 4875 2625
+NoConn ~ 4975 2625
+NoConn ~ 5075 2625
+NoConn ~ 5175 2625
+NoConn ~ 5275 2625
+NoConn ~ 5375 2625
+NoConn ~ 5375 2125
+NoConn ~ 5275 2125
+NoConn ~ 5175 2125
+NoConn ~ 5075 2125
+NoConn ~ 4975 2125
+NoConn ~ 4875 2125
+Wire Wire Line
+	7000 4425 7000 4225
+Text GLabel 7000 4225 1    50   BiDi ~ 0
+GPIO_PC0
+Text GLabel 6625 4225 1    50   BiDi ~ 0
+GPIO_PC1
+Text GLabel 6250 4225 1    50   BiDi ~ 0
+GPIO_PC2
+Text GLabel 5875 4225 1    50   BiDi ~ 0
+GPIO_PC4
+Text GLabel 5500 4225 1    50   BiDi ~ 0
+GPIO_PC4
+Text GLabel 5125 4225 1    50   BiDi ~ 0
+GPIO_PC5
+Text GLabel 4750 4225 1    50   BiDi ~ 0
+GPIO_PC6
+Text GLabel 4375 4225 1    50   BiDi ~ 0
+GPIO_PC7
+Wire Wire Line
+	7000 4900 7000 4625
+$Comp
+L Device:R_Small R0
+U 1 1 64385955
+P 7000 4525
+F 0 "R0" H 7059 4571 50  0000 L CNN
+F 1 "1K" H 7059 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7000 4525 50  0001 C CNN
+F 3 "~" H 7000 4525 50  0001 C CNN
+	1    7000 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 4425 6625 4225
+Wire Wire Line
+	6625 4900 6625 4625
+$Comp
+L Device:R_Small R1
+U 1 1 6438ACAA
+P 6625 4525
+F 0 "R1" H 6684 4571 50  0000 L CNN
+F 1 "1K" H 6684 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6625 4525 50  0001 C CNN
+F 3 "~" H 6625 4525 50  0001 C CNN
+	1    6625 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4425 6250 4225
+Wire Wire Line
+	6250 4900 6250 4625
+$Comp
+L Device:R_Small R2
+U 1 1 6438B8BE
+P 6250 4525
+F 0 "R2" H 6309 4571 50  0000 L CNN
+F 1 "1K" H 6309 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6250 4525 50  0001 C CNN
+F 3 "~" H 6250 4525 50  0001 C CNN
+	1    6250 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 4425 5875 4225
+Wire Wire Line
+	5875 4900 5875 4625
+$Comp
+L Device:R_Small R3
+U 1 1 6438B8CA
+P 5875 4525
+F 0 "R3" H 5934 4571 50  0000 L CNN
+F 1 "1K" H 5934 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5875 4525 50  0001 C CNN
+F 3 "~" H 5875 4525 50  0001 C CNN
+	1    5875 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4425 5500 4225
+Wire Wire Line
+	5500 4900 5500 4625
+$Comp
+L Device:R_Small R4
+U 1 1 6438CBA5
+P 5500 4525
+F 0 "R4" H 5559 4571 50  0000 L CNN
+F 1 "1K" H 5559 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5500 4525 50  0001 C CNN
+F 3 "~" H 5500 4525 50  0001 C CNN
+	1    5500 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 4425 5125 4225
+Wire Wire Line
+	5125 4900 5125 4625
+$Comp
+L Device:R_Small R5
+U 1 1 6438CBB1
+P 5125 4525
+F 0 "R5" H 5184 4571 50  0000 L CNN
+F 1 "1K" H 5184 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5125 4525 50  0001 C CNN
+F 3 "~" H 5125 4525 50  0001 C CNN
+	1    5125 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4425 4750 4225
+Wire Wire Line
+	4750 4900 4750 4625
+$Comp
+L Device:R_Small R6
+U 1 1 6438CBBD
+P 4750 4525
+F 0 "R6" H 4809 4571 50  0000 L CNN
+F 1 "1K" H 4809 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4750 4525 50  0001 C CNN
+F 3 "~" H 4750 4525 50  0001 C CNN
+	1    4750 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 4425 4375 4225
+Wire Wire Line
+	4375 4900 4375 4625
+$Comp
+L Device:R_Small R7
+U 1 1 6438CBC9
+P 4375 4525
+F 0 "R7" H 4434 4571 50  0000 L CNN
+F 1 "1K" H 4434 4480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4375 4525 50  0001 C CNN
+F 3 "~" H 4375 4525 50  0001 C CNN
+	1    4375 4525
+	1    0    0    -1  
+$EndComp
+Text Notes 7175 2075 0    50   ~ 0
+PIN 5 is Pin 1 on the AGON light Rev 1.0\nPIN 3 is Pin 1 on the AGONlight2\n\nPIN 1,2 and 37,38 are not required but added \nto prevent misdalignment in the header box for the AGONlight2\n\nIf using on the AGONlight Rev 1 then use caution to align correctly or omit unused headers.
+Text Notes 5000 2025 1    50   ~ 0
+35 = GND
+Text Notes 5000 3075 1    50   ~ 0
+36 = 3.3v
+Text Notes 6500 2950 1    50   ~ 0
+6 = 5v
+NoConn ~ 5875 2625
+$EndSCHEMATC
