@@ -16,6 +16,8 @@ This repo is intended to provide some simple add on boards for gpio examples and
 
 ## The PCBs
 
+KiCad, Schematics and Gerbers are provided. Please review before making a commitment. No warranties or support are provided.As of this date PCBs are not yet tested but will mark as such once done.
+
 #### #1 - The Blinkenlight.
 Every 8 bit computer needs blinky lights. Not only do they look like good they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
