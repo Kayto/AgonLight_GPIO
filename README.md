@@ -14,13 +14,18 @@ This repo is intended to provide some simple add on boards for gpio examples and
 * Ideally, provide onboard visual feedback to aid learning.
 * Avoid additional hardware processing on the add on board. Keeping access to the low level hardware prevents adding more complications when learning. I.e. GALs, additional controller ICs are to be avoided.
 
-## Content
+## The PCBs
 
 #### #1 - The Blinkenlight.
 Every 8 bit computer needs blinky lights. Not only do they look like good they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
 
-##### #1 Code
+## The Code
+
+I have created some code to introduce the boards. As said codng is not my strength so excuse the 
+
+|-----|------|-------|
+|Board | Code | description|
 
 
 
