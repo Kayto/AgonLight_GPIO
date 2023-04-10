@@ -31,7 +31,7 @@ I have created some code to introduce the boards. As said codng is not my streng
 | Board | Code | Description |
 |----------|:-------------|:-----|
 |#1 Blinkenlight | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
-|#1 Blinkenlight | gpioknight.bbc| please excuse the code, its a bad example that just duplicates and repeats the delay. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
+|#1 Blinkenlight | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| please excuse the code, its a bad example that just duplicates and repeats the delay. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
 |#2 seven segment | *Work in progress* | The code spells out Agon Light, a countdown and graphical doodle. | 
 
 
