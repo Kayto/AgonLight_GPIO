@@ -36,7 +36,11 @@ I have created some code to introduce the boards. As said, codng is not my stren
 |#1 Blinkenlight | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
 |#2 seven segment | *Work in progress* | The code spells out Agon Light, a countdown and graphical doodle. | 
 
+## Disclaimer & Credits
 
+Just a note that I am not in any way affiliated or linked with the Agon project.
+I am just an aspiring maker, sharing hobbyist builds.
+Thanks to the Agon project and supporters.
 
 
 
