@@ -26,11 +26,11 @@ This is a single 7 segment display linked to the Port C GPIOs. Allows a simple m
 
 ## The Code
 
-I have created some code to introduce the boards. As said codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve. The Code is **[here](
+I have created some code to introduce the boards. As said codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
 
 | Board | Code | Description |
 |----------|:-------------|:-----|
-|#1 Blinkenlight | gpioblink.bbc | select individual LEDs, set number of blinks and speed. |
+|#1 Blinkenlight | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |#1 Blinkenlight | gpioknight.bbc| please excuse the code, its a bad example that just duplicates and repeats the delay. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
 |#2 seven segment | *Work in progress* | The code spells out Agon Light, a countdown and graphical doodle. | 
 
