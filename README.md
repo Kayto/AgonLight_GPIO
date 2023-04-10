@@ -26,7 +26,8 @@ This is a single 7 segment display linked to the Port C GPIOs. Allows a simple m
 
 ## The Code
 
-I have created some code to introduce the boards. As said codng is not my strength so excuse the 
+I have created some code to introduce the boards. As said codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve. The Code is **[here](
+
 | Board | Code | Description |
 |----------|:-------------|:-----|
 |#1 Blinkenlight | gpioblink.bbc | select individual LEDs, set number of blinks and speed. |
