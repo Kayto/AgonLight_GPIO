@@ -20,12 +20,18 @@ This repo is intended to provide some simple add on boards for gpio examples and
 Every 8 bit computer needs blinky lights. Not only do they look like good they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
 
+#### #2 - 7 segment display
+This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
+*Work in progress* **watch this space** for code and PCB. Currently breadboarded the prototype for a PCB design.
+
 ## The Code
 
 I have created some code to introduce the boards. As said codng is not my strength so excuse the 
-
-|-----|------|-------|
-|Board | Code | description|
+| Board | Code | Description |
+|----------|:-------------|:-----|
+|#1 Blinkenlight | gpioblink.bbc | select individual LEDs, set number of blinks and speed. |
+|#1 Blinkenlight | gpioknight.bbc| please excuse the code, its a bad example that just duplicates and repeats the delay. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
+|#2 seven segment | *Work in progress* | The code spells out Agon Light, a countdown and graphical doodle. | 
 
 
 
