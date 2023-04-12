@@ -16,7 +16,7 @@ This repo is intended to provide some simple add on boards for gpio examples and
 
 ## The PCBs
 
-KiCad, Schematics and Gerbers are provided. Please review before making a commitment. No warranties or support are provided. As of this date PCBs are not yet tested but I will mark as such once done.
+KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in the KiCad directory. Please review before making a commitment. No warranties or support are provided. As of this date PCBs are not yet tested but I will mark as such once done.
 
 #### #1 - The Blinkenlight.
 Every 8 bit computer needs blinky lights. Not only do they look like good, they are useful for debugging and understanding what is going on at a bit level.
@@ -24,7 +24,7 @@ The Blinkenlight PCB is pretty much the breadboard example from the official doc
 
 #### #2 - 7 segment display
 This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
-*Work in progress* **watch this space** for code and PCB. Currently breadboarded the prototype for a PCB design.
+A caution on this is that you need a 7 segment display to suit the pin out (they do vary). Review the schematics, Pin 3 and 8 are power.I have provided a solder jumper for setting of common anode and common cathode displays. Note that for common anode the coding assumes a LOW signal for on and HIGH for off.
 
 ## The Code
 
@@ -34,7 +34,7 @@ I have created some code to introduce the boards. As said, codng is not my stren
 |----------|:-------------|:-----|
 |#1 Blinkenlight | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |#1 Blinkenlight | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
-|#2 seven segment (PCB in progress)|  [7segment.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The code spells out Agon Light, a countdown and graphical doodle. Similar to above the code is a mess! | 
+|#2 seven segment (PCB in progress)|  [7segment.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The code spells out Agon Light, a countdown and graphical doodle. Similar to above the code is a mess! I will provide a truth table sometime. | 
 
 ## Disclaimer & Credits
 
