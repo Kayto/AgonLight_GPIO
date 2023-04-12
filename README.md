@@ -34,7 +34,7 @@ I have created some code to introduce the boards. As said, codng is not my stren
 |----------|:-------------|:-----|
 |[#1 Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |[#1 Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
-|#2 seven segment (PCB in progress)|  [7segment.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The code spells out Agon Light, a countdown and graphical doodle. Similar to above the code is a mess! I will provide a truth table sometime. | 
+|[#2 seven segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [7segment.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The code spells out Agon Light, a countdown and graphical doodle. Similar to above the code is a mess! I will provide a truth table sometime. | 
 
 ## Disclaimer & Credits
 
