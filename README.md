@@ -19,13 +19,13 @@ This repo is intended to provide some simple add on boards for gpio examples and
 KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in the KiCad directory. Please review before making a commitment. No warranties or support are provided. As of this date PCBs are not yet tested but I will mark as such once done.
 
 #### #1 - The Blinkenlight.
-
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%231_Blinkenlight/%231_Blinkenlight-front_display.jpg)
 
 Every 8 bit computer needs blinky lights. Not only do they look like good, they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
 
 #### #2 - 7 segment display
+![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%232_7segment-front_display.jpg)
 This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
 A caution on this is that you need a 7 segment display to suit the pin out (they do vary). Review the schematics, Pin 3 and 8 are power.I have provided a solder jumper for setting of common anode and common cathode displays. Note that for common anode the coding assumes a LOW signal for on and HIGH for off.
 
