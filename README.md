@@ -26,6 +26,7 @@ The Blinkenlight PCB is pretty much the breadboard example from the official doc
 
 #### #2 - 7 segment display
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%232_7segment-front_display.jpg)
+
 This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
 A caution on this is that you need a 7 segment display to suit the pin out (they do vary). Review the schematics, Pin 3 and 8 are power.I have provided a solder jumper for setting of common anode and common cathode displays. Note that for common anode the coding assumes a LOW signal for on and HIGH for off.
 
