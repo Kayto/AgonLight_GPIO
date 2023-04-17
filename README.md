@@ -20,7 +20,8 @@ KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in t
 
 #### #1 - The Blinkenlight.
 
-![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%231_Blinkenlight/%231_Blinkenlight-front-display.jpg)
+![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%231_Blinkenlight/%231_Blinkenlight-front_display.jpg)
+
 Every 8 bit computer needs blinky lights. Not only do they look like good, they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
 
