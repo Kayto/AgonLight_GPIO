@@ -30,6 +30,11 @@ The Blinkenlight PCB is pretty much the breadboard example from the official doc
 This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
 A caution on this is that you need a 7 segment display to suit the pin out (they do vary). Review the schematics, Pin 3 and 8 are power.I have provided a solder jumper for setting of common anode and common cathode displays. Note that for common anode the coding assumes a LOW signal for on and HIGH for off.
 
+#### #3 - Double Seven
+
+** In progress **
+
+
 ## The Code
 
 I have created some code to introduce the boards. As said, codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
