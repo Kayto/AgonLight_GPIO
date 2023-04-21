@@ -31,8 +31,12 @@ This is a single 7 segment display linked to the Port C GPIOs. Allows a simple m
 A caution on this is that you need a 7 segment display to suit the pin out (they do vary). Review the schematics, Pin 3 and 8 are power.I have provided a solder jumper for setting of common anode and common cathode displays. Note that for common anode the coding assumes a LOW signal for on and HIGH for off.
 
 #### #3 - Double Seven
-**In progress**
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%233_7segment_double.jpg)
+
+**In progress**
+This is a **double** 7 segment display linked to the Port C GPIOs for data and 2No. Port D GPIOs to do the multiplexing.
+To save space resistor networks are used instead of the 8No. resistors ad the single digit PCB.
+
 
 ## The Code
 
