@@ -33,9 +33,10 @@ A caution on this is that you need a 7 segment display to suit the pin out (they
 #### #3 - Double Seven
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%233_7segment_double.jpg)
 
-**In progress**
+**In progress.**
+
 This is a **double** 7 segment display linked to the Port C GPIOs for data and 2No. Port D GPIOs to do the multiplexing.
-To save space resistor networks are used instead of the 8No. resistors ad the single digit PCB.
+To save space resistor networks are used instead of the 8No. resistors as the single digit PCB.
 
 
 ## The Code
