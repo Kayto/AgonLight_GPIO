@@ -43,7 +43,7 @@ To save space resistor networks are used instead of the 8No. resistors as the si
 
 **In progress.**
 
-This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. Not yet sure on how to modulate the output for the RGB but thats not holding me back. The two push buttons are to esablish some input and mode switching capability. I may need to consider drivers for the RGB but waiting to get my hands dirty by breadboarding. 
+This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. Not yet sure on how to modulate the output for the RGB but thats not holding me back. The two push buttons are to establish some input and mode switching capability. I may need to consider drivers for the RGB but waiting to get my hands dirty by breadboarding. 
 
 ## The Code
 
