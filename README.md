@@ -38,6 +38,12 @@ A caution on this is that you need a 7 segment display to suit the pin out (they
 This is a **double** 7 segment display linked to the Port C GPIOs for data and 2No. Port D GPIOs to do the multiplexing.
 To save space resistor networks are used instead of the 8No. resistors as the single digit PCB.
 
+#### #4 - Moody
+![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%233_7segment_double.jpg)
+
+**In progress.**
+
+This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. Not yet sure on how to modulate the output for the RGB but thats not holding me back. The two push buttons are to esablish some input and mode switching capability. I may need to consider drivers for the RGB but waiting to get my hands dirty by breadboarding. 
 
 ## The Code
 
