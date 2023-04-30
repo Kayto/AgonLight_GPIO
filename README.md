@@ -39,7 +39,7 @@ This is a **double** 7 segment display linked to the Port C GPIOs for data and 2
 To save space resistor networks are used instead of the 8No. resistors as the single digit PCB.
 
 #### #4 - Moody
-![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%233_7segment_double.jpg)
+![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%234_Moody/%234_Moody_front.jpg)
 
 **In progress.**
 
