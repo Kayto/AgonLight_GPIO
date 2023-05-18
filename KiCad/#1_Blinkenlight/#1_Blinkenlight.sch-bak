@@ -198,7 +198,6 @@ NoConn ~ 6575 2625
 NoConn ~ 6475 2625
 NoConn ~ 6375 2625
 NoConn ~ 6275 2625
-NoConn ~ 5900 2625
 NoConn ~ 5975 2625
 NoConn ~ 6075 2625
 NoConn ~ 6175 2625
@@ -255,7 +254,7 @@ GPIO_PC1
 Text GLabel 6250 4225 1    50   BiDi ~ 0
 GPIO_PC2
 Text GLabel 5875 4225 1    50   BiDi ~ 0
-GPIO_PC4
+GPIO_PC3
 Text GLabel 5500 4225 1    50   BiDi ~ 0
 GPIO_PC4
 Text GLabel 5125 4225 1    50   BiDi ~ 0
@@ -383,5 +382,12 @@ F 3 "~" H 4375 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7175 2075 0    50   ~ 0
-PIN 5 is Pin 1 on the AGON light Rev 1.0\nPIN 3 is PIN 1 on the AGONlight2\n\nPIN 1,2 and 37,38 are not required but added \nto prevent misdalignment in the header box for the AGONlight2\n\nIf using on the AGONlight Rev 1 then use caution to align correctly or omit unused headers.
+PIN 5 is Pin 1 on the AGON light Rev 1.0\nPIN 3 is Pin 1 on the AGONlight2\n\nPIN 1,2 and 37,38 are not required but added \nto prevent misdalignment in the header box for the AGONlight2\n\nIf using on the AGONlight Rev 1 then use caution to align correctly or omit unused headers.
+Text Notes 5000 2025 1    50   ~ 0
+35 = GND
+Text Notes 5000 3075 1    50   ~ 0
+36 = 3.3v
+Text Notes 6500 2950 1    50   ~ 0
+6 = 5v
+NoConn ~ 5875 2625
 $EndSCHEMATC

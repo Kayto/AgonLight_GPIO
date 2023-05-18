@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "#1 - Blinkenlight"
-Date "2023-04-10"
+Date "2023-05-18"
 Rev "Rev 01"
 Comp "AdamT117 (https://github.com/Kayto/AgonLight_GPIO)"
 Comment1 ""
@@ -254,7 +254,7 @@ GPIO_PC1
 Text GLabel 6250 4225 1    50   BiDi ~ 0
 GPIO_PC2
 Text GLabel 5875 4225 1    50   BiDi ~ 0
-GPIO_PC4
+GPIO_PC3
 Text GLabel 5500 4225 1    50   BiDi ~ 0
 GPIO_PC4
 Text GLabel 5125 4225 1    50   BiDi ~ 0
