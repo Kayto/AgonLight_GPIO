@@ -10,7 +10,7 @@
 # ignore all files in any directory named build
 #build/
 KiCad/#3_7Segment_double
-KiCad/#4_Moody
+#KiCad/#4_Moody
 
 # ignore doc/notes.txt, but not doc/server/arch.txt
 KiCad/*.zip
