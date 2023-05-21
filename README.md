@@ -18,13 +18,13 @@ This repo is intended to provide some simple add on boards for gpio examples and
 
 KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in the KiCad directory. Please review before making a commitment. No warranties or support are provided. As of this date PCBs are not yet tested but I will mark as such once done.
 
-#### #1 - The Blinkenlight.
+#### #1 - The Blinkenlight. - tested working
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%231_Blinkenlight/%231_Blinkenlight-front_display.jpg)
 
 Every 8 bit computer needs blinky lights. Not only do they look like good, they are useful for debugging and understanding what is going on at a bit level.
 The Blinkenlight PCB is pretty much the breadboard example from the official documentation but without the fiddly wires. It directly plugs into the GPIO header and provides an easily viewable "faceplate". This presents the form for future boards.
 
-#### #2 - 7 segment display
+#### #2 - 7 segment display. - tested working
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%232_7segment-front_display.jpg)
 
 This is a single 7 segment display linked to the Port C GPIOs. Allows a simple message display with a delay. Ok its only single digits but something to build on.
@@ -38,10 +38,8 @@ A caution on this is that you need a 7 segment display to suit the pin out (they
 This is a **double** 7 segment display linked to the Port C GPIOs for data and 2No. Port D GPIOs to do the multiplexing.
 To save space resistor networks are used instead of the 8No. resistors for the single digit PCB.
 
-#### #4 - Moody
+#### #4 - Moody. - tested working
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%234_Moody_front.jpg)
-
-**In progress.**
 
 This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. Not yet sure on how to modulate the output for the RGB but thats not holding me back. The two push buttons are to establish some input and mode switching capability. I may need to consider drivers for the RGB but waiting to get my hands dirty by breadboarding. 
 
