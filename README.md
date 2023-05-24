@@ -51,9 +51,11 @@ I have created some code to introduce the boards. As said, codng is not my stren
 |:----------|:-------------|:-----|
 |[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
-|[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [7segment.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The code spells out Agon Light, a countdown and graphical doodle. Similar to above the code is a mess! I will provide a truth table sometime. | 
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [diceroll.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A random 1-6 generator for board games, handy. | 
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [counter.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A single digit counter, you're welcome. | 
+|[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodyfade.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | An RGB fade. | 
+|[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodybutton.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The RGB fade but now includes buttons. Button A for on and off. Button B to increase the fade speed.| 
+
 ## Disclaimer & Credits
 
 Just a note that I am not in any way affiliated or linked with the Agon project.
