@@ -10,6 +10,7 @@ This repo is intended to provide some simple add on boards for gpio examples and
 ## Aims
 * Provide a range of simple IO hardware to aid coding in BBC BASIC.
 * To be useful in gaining a general understanding of GPIO usage and real world interfacing.
+* Stick to the general GPIOs only.
 * Avoid cables and breadboards and try to fit a standardised form factor. In this case a plugable "faceplate" for the exiting gpio port. The board should avoid constraining any existing ports and access.
 * Ideally, provide onboard visual feedback to aid learning.
 * Avoid additional hardware processing on the add on board. Keeping access to the low level hardware prevents adding more complications when learning. I.e. GALs, additional controller ICs are to be avoided.
@@ -36,12 +37,12 @@ A caution on this is that you need a 7 segment display to suit the pin out (they
 **In progress.**
 
 This is a **double** 7 segment display linked to the Port C GPIOs for data and 2No. Port D GPIOs to do the multiplexing.
-To save space resistor networks are used instead of the 8No. resistors for the single digit PCB.
+To save space resistor networks are used instead of individual resistors.
 
 #### #4 - Moody. - tested working
 ![](https://github.com/Kayto/AgonLight_GPIO/blob/main/KiCad/%232_7Segment/%234_Moody_front.jpg)
 
-This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. Not yet sure on how to modulate the output for the RGB but thats not holding me back. The two push buttons are to establish some input and mode switching capability. I may need to consider drivers for the RGB but waiting to get my hands dirty by breadboarding. 
+This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provided. The two push buttons on PC_3 and PC_4 are to establish some input and mode switching capability. 
 
 ## The Code
 
@@ -49,11 +50,11 @@ I have created some code to introduce the boards. As said, codng is not my stren
 
 | Board | Code | Description |
 |:----------|:-------------|:-----|
-|[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioblink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
+|[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [PortC_blink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [diceroll.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A random 1-6 generator for board games, handy. | 
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [counter.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A single digit counter, you're welcome. | 
-|[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodyfade.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | An RGB fade. | 
+|[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodyfade.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | An RGB fade using some crude PWM in BBC BASIC. | 
 |[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodybutton.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | The RGB fade but now includes buttons. Button A for on and off. Button B to increase the fade speed.| 
 
 ## Disclaimer & Credits
