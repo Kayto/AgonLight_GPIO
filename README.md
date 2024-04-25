@@ -46,7 +46,7 @@ This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provid
 
 ## The Code
 
-I have created some code to introduce the boards. As said, codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
+I have created some code to introduce the boards. As said, coding is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
 To view the code add the .BBC files to the SD card and load via BBC BASIC then type LIST.
 
 | Board | Code | Description |
