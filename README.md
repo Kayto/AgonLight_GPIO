@@ -46,12 +46,14 @@ This is an RGB LED linked to the Port C GPIOs, 2No. push buttons are also provid
 
 ## The Code
 
-I have created some code to introduce the boards. As said, codng is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
+I have created some code to introduce the boards. As said, coding is not my strength so excuse the code, in some cases its not a great example but enough to get things going and for a challenge to improve.
+To view the code add the .BBC files to the SD card and load via BBC BASIC then type LIST.
 
 | Board | Code | Description |
 |:----------|:-------------|:-----|
 |[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [PortC_blink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | select individual LEDs, set number of blinks and speed. |
 |[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [gpioknight.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| Some blinky patterns. Excuse the code, its a bad example with lots of inefficient duplication to get things done. The **challenge** is open to simplify this, perhaps a data array for the gpio commands and a single procedure for the delay?|
+|[#1_Blinkenlight](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%231_Blinkenlight) | [random8blink.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code)| An easy change to PortC-Blink, uses the random function and fixed blink speed to just randomly blink the 8 LEDs!|
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [diceroll.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A random 1-6 generator for board games, handy. | 
 |[#2_seven_segment](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%232_7Segment)|  [counter.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | A single digit counter, you're welcome. | 
 |[#4_Moody](https://github.com/Kayto/AgonLight_GPIO/tree/main/KiCad/%234_Moody)|  [moodyfade.bbc](https://github.com/Kayto/AgonLight_GPIO/tree/main/Code) | An RGB fade using some crude PWM in BBC BASIC. | 
